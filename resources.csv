@@ -1,0 +1,8 @@
+﻿id,desc,required columns,Notebook .ipynb use?,notes
+1,Rooms with Edits.xlsx,"Location Name, Max Capacity, Default Layout",Yes,"only account classrooms, and not other room"
+2,SpListingExcel.xlsb,,No,all classrooms open from 7 - 11. Transform room to attributes
+3,Fall2024 Class Enrollment vs Room Size.csv,"Subject, CourseNumber, CourseTitle",Yes,Incomplete data. current schedule. Good reference for CURRENT multiple class setup. Need to extract proper cross-listings. CrosslistGroup column is only partially filled
+4,Course Registrations And Student Majors Fall2024.csv,"CourseTitle, SUBJ_NMBR,Course_Campus_Name, Max_Enrl, Major",Yes,Used to find out that id: 3 is incomplete. Extract courses from this FILE. Cross-listing based on Common Title and Different SUBJ_NMBR
+5,ChicagoCampusHeadcountByCollegeAndSemester.csv,,Yes,HeadCount based on College
+6,"G-Distinct Count by Term, …","Athletics Indicator, Major, Term, Distinct Students",Yes,Join w UG and extract Athlete and Major Distribution
+7,"UG-Distinct Count by Term, …","Athletics Indicator, Major, Term, Distinct Students",Yes,Join w G and extract Athlete and Major Distribution
